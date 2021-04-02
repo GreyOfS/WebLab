@@ -1,0 +1,49 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #202020;
+	height: auto;
+	width: auto;
+}
+
+.frame {
+	border-style: solid;
+	border-radius: 5%;
+	height: auto;
+	width: auto;
+	margin:2% 10% 0px 10%;
+	padding: 5%;
+}
+
+.titre {
+	text-align: center;
+	border-style: none none solid none;
+	margin: 0% 10% 10% 10%;
+	padding: 5%;
+}
+
+.frame form {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.frame form input {
+	background-color: #202020;
+	height: 50px;
+	border-radius: 25px;
+	padding: 5px;
+	margin: 2%;
+	border: none;
+	box-shadow: -5px -5px 10px #eee, 5px 5px 10px #050505;
+}
+
+#login:hover{	
+	box-shadow: inset -5px -5px 10px #eee, inset 5px 5px 10px #050505;
+}
