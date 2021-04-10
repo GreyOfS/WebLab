@@ -1,0 +1,73 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	width: auto;
+	height: 500vh;
+}
+
+.body {
+	width: auto;
+	height: auto;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	background-image: url("background.jpg");
+	background-repeat: repeat;
+	background-position: center;
+}
+
+.background, .containt {
+	grid-row: 1;
+	grid-column: 1;
+}
+
+section {
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+
+.side {
+	background-color: #8db3b6;
+	grid-row: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.containt section:nth-child(odd) .side{
+	grid-column: 1;
+}
+.containt section:nth-child(even) .side{
+	grid-column: 2;
+}
+
+.side :is(h1, h2, h3, h4, h5, h6, p) {
+	text-align: center;
+	margin: auto 10%;
+	width: 90%;
+	font-family: sans-serif;
+}
+
+.side h1 {
+	font-size: 5em;
+}
+
+.side p {
+	font-size: 1em;
+}
+
+img {
+	max-width: 40vw;
+	max-height: 40vh;
+	margin: auto;
+}
