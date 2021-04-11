@@ -1,4 +1,4 @@
-<p align="center"><div style="border-radius: 50%;"><img src="logo.jpg" height="200"></div></p>
+<p align="center"><img src="logo.jpg" height="200"></p>
 
 <h1 align="center">WebLab</h1>
 
