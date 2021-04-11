@@ -41,9 +41,9 @@ body {
 	padding: 5px;
 	margin: 2%;
 	border: none;
-	box-shadow: -5px -5px 10px #eee, 5px 5px 10px #050505;
+	box-shadow: -5px -5px 10px #505050, 5px 5px 10px #101010;
 }
 
 #login:hover{	
-	box-shadow: inset -5px -5px 10px #eee, inset 5px 5px 10px #050505;
+	box-shadow: inset -5px -5px 10px #505050, inset 5px 5px 10px #101010;
 }
