@@ -1,3 +1,3 @@
 # ***LocoSmoothScroll***
 
-### Test de la fonction ***Smooth*** de la librairy [***Locomotive-Scroll***](https://github.com/locomotivemtl/locomotive-scroll.git)
+### Test de la fonction ***Smooth*** de la library [***Locomotive-Scroll***](https://github.com/locomotivemtl/locomotive-scroll.git) de @Locomotive
