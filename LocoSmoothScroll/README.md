@@ -1,4 +1,4 @@
-![LocoSmoothScroll](logo.png)
+<img src="logo.png" style="margin: 0px auto">
 
 # ***LocoSmoothScroll***
 
