@@ -1,30 +1,32 @@
 <p align="center"><img src="logo.png" height="200"></p>
 
-<h1 align="center">LocoSmoothScroll</h1>
+<h1 align="center">LocoPopUpScroll</h1>
 
-### Test de la fonction ***Smooth*** de la library [***Locomotive-Scroll***](https://github.com/locomotivemtl/locomotive-scroll.git) de [@locomotivemtl](https://github.com/locomotivemtl)
+### Test de la possibilité de faire apparaitre des éléments avec la library [***Locomotive-Scroll***](https://github.com/locomotivemtl/locomotive-scroll.git) de [@locomotivemtl](https://github.com/locomotivemtl)
 
 ```html
 <body data-scroll-container>
-	<section data-scroll-section>
-		<h1>Lorem, ipsum dolor sit amet.</h1>
-	</section>
+	<div class="body" data-scroll data-scroll-speed="0">
+		<section>
+			<h1 data-scroll data-scroll-speed="5">Lorem, ipsum dolor sit amet.</h1>
+		</section>
 
-	<section data-scroll-section>
-		<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Consequatur...</p>	
-	</section>
+		<section>
+			<p data-scroll data-scroll-speed="5">Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Consequatur ...</p>	
+		</section>
 
-	<section data-scroll-section>
-		<img src="image.jpg" alt="image">
-	</section>
+		<section>
+			<img src="image.jpg" alt="image" data-scroll data-scroll-speed="5">
+		</section>
 
-	<section data-scroll-section>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ...</p>
-	</section>
+		<section>
+			<p data-scroll data-scroll-speed="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ...</p>
+		</section>
 
-	<section data-scroll-section>
-				<h1>END !</h1>
-	</section>
+		<section>
+					<h1 data-scroll data-scroll-speed="5">END !</h1>
+		</section>
+	</div>
 </body>
 ```
 
