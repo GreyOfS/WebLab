@@ -4,4 +4,4 @@
 
 ###LogIn page basé sur le movement du ***Neumorphism***
 
-<p align="center"><img src="neumorphism.jpeg" height="200"></p>
+<p align="center"><img src="neumorphism.jpeg"></p>
