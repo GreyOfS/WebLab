@@ -1,4 +1,4 @@
-<img src="logo.png" style="margin: 0px auto">
+<img src="logo.png" align="center">
 
 # ***LocoSmoothScroll***
 
