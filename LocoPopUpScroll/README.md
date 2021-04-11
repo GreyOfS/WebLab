@@ -24,7 +24,7 @@
 		</section>
 
 		<section>
-					<h1 data-scroll data-scroll-speed="5">END !</h1>
+			<h1 data-scroll data-scroll-speed="5">END !</h1>
 		</section>
 	</div>
 </body>
