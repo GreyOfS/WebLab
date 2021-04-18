@@ -3,4 +3,4 @@
 <a href="https://devgrey.me/WebLab/"><h1 align="center">WebLab</h1></a>
 
 ## [***weblab.devgrey.me***](https://devgrey.me/WebLab/)
-### Bienvenue dans le laboratoire dans lequel j'expertise tous les visses du web
+### Bienvenue dans le laboratoire dans lequel j'expertise tous les vices du web
