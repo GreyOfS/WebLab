@@ -1,0 +1,78 @@
+/*__________________________________________________DATA__*/
+
+
+:root {
+	--colorP: #008DB9;
+	--colorS: #E67200;
+	--colorT: #FFFFFF;
+	--backgroundDark: #302112;
+	--backgroundLight: #D9D9D9;
+
+	scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: coolvetica;
+	src: url(font/coolvetica rg.ttf);
+}
+
+/*__________________________________________________DATA__*/
+/*__________________________________________________ALL__*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: var(--colorT);
+}
+
+body {
+	width: auto;
+	min-height: 100vh;
+}
+
+/*__________________________________________________ALL__*/
+/*__________________________________________________HEADER__*/
+
+header {
+	text-transform: uppercase;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	z-index: 9999;
+}
+
+header .menu {
+	display: flex;
+}
+
+header .menu a {
+	padding: 0 0.5em;
+	margin: auto;
+	font-size: 2em;
+	transition: 0.5s;
+	border-radius: 10px;
+}
+
+header .menu a:hover {
+	transform: translateY(2px);
+	border: solid;
+	border-color: var(--colorT);
+}
+
+header a {
+	padding: 0.25em 0.5em;
+	font-size: 3em;
+}
+
+/*__________________________________________________HEADER__*/
+/*__________________________________________________CAROUSEL__*/
+
+
+
+/*__________________________________________________CAROUSEL__*/
