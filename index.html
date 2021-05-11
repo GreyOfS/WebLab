@@ -4,141 +4,79 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="logo.jpg">
-	<title>WebLab</title>
+	<title>DevGrey</title>
 </head>
+<style type="text/css">
+	@media (prefers-color-scheme: light) {
+		:root{
+			--background-color: #FFFFFF;
+			--color: #000000;
+		}
+	}
 
-<body>
-	<div class="titre">
-		<img src="logo.jpg" alt="Logo">
-		<h1>WebLab</h1>
-	</div>
-	<div class="liste">
-		<!--
-		<a href=" <Link> " class="element">
-			<div class="img">
-				<img src=" <Image> " alt="">				
-			</div>
-			<h2> <Nom> </h2>
-		</a>
-		-->
-		<a href=" LocoPopUpScroll/index.html " class="element">
-			<div class="img">
-				<img src=" LocoPopUpScroll/logo.png " alt="">				
-			</div>
-			<h2> LocoPopUpScroll </h2>
-		</a>
+	@media (prefers-color-scheme: dark) {
+		:root{
+			--background-color: #303040;
+			--color: #FFFFFF;
+		}
+	}
 
-		<a href=" LocoParallaxScroll/index.html " class="element">
-			<div class="img">
-				<img src=" LocoParallaxScroll/logo.png " alt="">				
-			</div>
-			<h2> LocoParallaxScroll </h2>
-		</a>
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
 
-		<a href=" LocoSmoothScroll/index.html " class="element">
-			<div class="img">
-				<img src=" LocoSmoothScroll/logo.png " alt="">				
-			</div>
-			<h2> LocoSmoothScroll </h2>
-		</a>
+	body {
+		background-color: var(--background-color) ;
+		width: 100%;
+		height: auto;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+	h1, h2 {
+		color: var(--color);
+		padding: 1%;
+		margin: auto 5%;
+		font-family: sans-serif;
+		text-align: center;
+	}
 
-		<a href=" LogIn/index.html " class="element">
-			<div class="img" style="background-color: #273b7a;">
-				<img src=" LogIn/icon.png " alt="LogIn Icon">	
-			</div>
-			<h2> LogIn </h2>
-		</a>
+	h1 {
+		font-size: 5em;
+		border-style: solid;
+		border-color: orange;
+		border-width: 0.25em;
+		border-radius: 1em; 
+	}
 
-		<a href=" https://devgrey.me " class="element">
-			<div class="img">
-				<img src=" devgrey.me/logo.jpg " alt="">				
-			</div>
-			<h2> devgrey.me </h2>
-		</a>
+	h2 {
+		font-size: 3em;
+	}
 
-		<a href=" https://github.com/GreyOfS/WebLab.git " class="element">
-			<div class="img">
-				<img src=" logo.jpg " alt="WebLab">	
-			</div>
-			<h2> WebLab </h2>
-		</a>
-	</div>
-</body>
+	a {
+		text-decoration: none;
+		color: orange;
+	}
 
-<style>
-* {
-	margin: 0px;
-	padding: 0px;
-	color: white;
-	text-decoration: none;
-	font-family: sans-serif;
-}
+	@media all and (max-width: 1200px) {
+		h1 {
+			font-size: 2em;
+		}
 
-body {
-	background-color: #202020;
-	height: auto;
-	width: auto;
-}
+		h2 {
+			font-size: 1em;
+		}
+	}
 
-.titre {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding: 2%;
-	margin: 5% 20%;
-	border-style: none none solid none;
-}
-
-.titre img {
-	width: 15%;
-	border-radius: 50%;
-}
-
-.titre h1 {
-	margin: auto;
-}
-
-.liste {
-	width: auto;
-	height: auto;
-	margin: 0px 5%;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.element {
-	background-color: #404040;
-	width: 350px;
-	border-radius: 10%;
-	overflow: hidden;
-	margin: 2%;
-	transition: 0.5s;
-	box-shadow: #505050 5px 5px 0px;
-}
-
-.element:hover {
-	box-shadow: #505050 -5px -5px 0px;
-	transition: 0.5s;
-}
-
-.element h2 {
-	text-align: center;
-	height: 50px;
-	padding-top: 10%;
-}
-
-.img {
-	width: 100%;
-	height: 350px;
-	aspect-ratio: 1/1;
-	background-color: black;
-	box-shadow: #303030 0px 10px 15px;
-}
-
-.img img {
-	height: inherit;
-}
+	@media all and (max-width: 260px) {
+		html {
+			display: none;
+		}
+	}
 </style>
+<body>
+	<h1>⚠ Ce site est présentement en travaux ⚠</h1>
+	<h2>Cependant le <a href="https://devgrey.me/WebLab/">WebLab</a> est accessible</h2>
+</body>
 </html>
